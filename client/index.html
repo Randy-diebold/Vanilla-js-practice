@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js"></script>
+    <title>Vanilla JS Practice</title>
+  </head>
+  <body>
+    <div id="signIn" class="hidden">
+      <form>
+        <label>Email: </label>
+        <input type="text" /><br />
+        <label>password: </label>
+        <input type="password" /><br />
+      </form>
+      <p>don't have and account? <button>sign up</button></p>
+      <button id="signinBtn" onclick="handleSignIn">Submit</button>
+    </div>
+    <div id="signup" class="hidden">
+      <form>
+        <label>Email: </label>
+        <input type="email" /><br />
+        <label>Password: </label>
+        <input type="password" /><br />
+        <label>Confirm Password: </label>
+        <input type="password" /><br />
+      </form>
+      <p>already have an account? <button>sign in</button></p>
+
+      <button id="signupBtn" onclick="handleSignUp">Submit</button>
+    </div>
+  </body>
+</html>
